@@ -1,0 +1,1506 @@
+2016-10-24 02:06:16.210 INFO  (main) [   ] o.e.j.u.log Logging initialized @378ms
+2016-10-24 02:06:16.384 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2016-10-24 02:06:16.399 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/pparthasarathy/solr-6.2.1/server/contexts/] at interval 0
+2016-10-24 02:06:16.593 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-10-24 02:06:16.604 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@71423665{/solr,file:///Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp/,STARTING}{/Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-10-24 02:06:16.613 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1519280649@5a8e6209
+2016-10-24 02:06:16.629 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-24 02:06:16.630 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:06:16.631 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/pparthasarathy/solr-6.2.1/server/solr'
+2016-10-24 02:06:16.631 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-24 02:06:16.631 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:06:16.636 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/pparthasarathy/solr-6.2.1/server/solr/solr.xml
+2016-10-24 02:06:16.743 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:06:16.767 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 364604394
+2016-10-24 02:06:16.768 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/pparthasarathy/solr-6.2.1/server/solr]
+2016-10-24 02:06:16.768 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/pparthasarathy/solr-6.2.1/server/solr/lib to classpath: /Users/pparthasarathy/solr-6.2.1/server/solr/lib
+2016-10-24 02:06:16.778 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2016-10-24 02:06:16.983 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-10-24 02:06:16.985 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-10-24 02:06:16.986 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-10-24 02:06:16.987 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-10-24 02:06:16.987 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-10-24 02:06:17.029 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:06:17.040 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=hotelRecommendations, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data/}
+2016-10-24 02:06:17.040 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core hotelRecommendations in /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations
+2016-10-24 02:06:17.040 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-10-24 02:06:17.047 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/pparthasarathy/solr-6.2.1/server
+2016-10-24 02:06:17.048 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations'
+2016-10-24 02:06:17.049 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-10-24 02:06:17.049 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-24 02:06:17.049 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:06:17.058 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@71423665{/solr,file:///Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp/,AVAILABLE}{/Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp}
+2016-10-24 02:06:17.080 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@139982de{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-10-24 02:06:17.080 INFO  (main) [   ] o.e.j.s.Server Started @1250ms
+2016-10-24 02:06:17.091 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2016-10-24 02:06:17.093 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-10-24 02:06:17.097 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/commons-compress-1.11.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/fontbox-2.0.1.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/icu4j-56.1.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/isoparser-1.1.18.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/jackcess-2.1.3.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/jempbox-1.8.12.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/metadata-extractor-2.8.1.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/pdfbox-2.0.1.jar' to classloader
+2016-10-24 02:06:17.098 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/pdfbox-tools-2.0.1.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/poi-3.15-beta1.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/poi-ooxml-3.15-beta1.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/poi-ooxml-schemas-3.15-beta1.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/poi-scratchpad-3.15-beta1.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/rome-1.0.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tika-core-1.13.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tika-java7-1.13.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tika-parsers-1.13.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tika-xmp-1.13.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/vorbis-java-core-0.8.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/vorbis-java-tika-0.8.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/xz-1.5.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/dist/solr-cell-6.2.1.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/attributes-binder-1.3.1.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/carrot2-mini-3.12.0.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2016-10-24 02:06:17.099 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/dist/solr-clustering-6.2.1.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/dist/solr-langid-6.2.1.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2016-10-24 02:06:17.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/dist/solr-velocity-6.2.1.jar' to classloader
+2016-10-24 02:06:17.236 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.2.1
+2016-10-24 02:06:17.344 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-10-24 02:06:17.399 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [hotelRecommendations] Schema name=example-data-driven-schema
+2016-10-24 02:06:17.697 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-10-24 02:06:17.808 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-10-24 02:06:17.811 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-10-24 02:06:17.842 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations'
+2016-10-24 02:06:17.842 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'hotelRecommendations' using configuration from instancedir /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations
+2016-10-24 02:06:17.865 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-10-24 02:06:17.874 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [[hotelRecommendations] ] Opening new SolrCore at [/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations], dataDir=[/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/]
+2016-10-24 02:06:17.876 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-10-24 02:06:17.879 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [[hotelRecommendations] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-10-24 02:06:17.879 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [[hotelRecommendations] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-10-24 02:06:17.890 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory return new directory for /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/snapshot_metadata
+2016-10-24 02:06:17.891 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.s.SolrSnapshotMetaDataManager Loading from snapshot metadata file...
+2016-10-24 02:06:17.894 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2016-10-24 02:06:17.895 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory return new directory for /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data
+2016-10-24 02:06:17.895 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index/
+2016-10-24 02:06:17.897 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory return new directory for /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index
+2016-10-24 02:06:17.911 INFO  (OldIndexDirectoryCleanupThreadForCore-hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.SolrCore Looking for old index directories to cleanup for core hotelRecommendations in /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/
+2016-10-24 02:06:17.912 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2016-10-24 02:06:17.914 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2016-10-24 02:06:17.988 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2016-10-24 02:06:18.032 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-10-24 02:06:18.051 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-24 02:06:18.052 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-24 02:06:18.053 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-24 02:06:18.054 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-24 02:06:18.109 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-10-24 02:06:18.109 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2016-10-24 02:06:18.110 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-10-24 02:06:18.110 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-10-24 02:06:18.111 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2016-10-24 02:06:18.111 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2016-10-24 02:06:18.111 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2016-10-24 02:06:18.111 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/sql,/graph,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/terms,/debug/dump,/update/extract
+2016-10-24 02:06:18.111 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-10-24 02:06:18.120 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-10-24 02:06:18.121 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-10-24 02:06:18.137 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-10-24 02:06:18.137 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-10-24 02:06:18.198 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_j,generation=19}
+2016-10-24 02:06:18.199 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 19
+2016-10-24 02:06:18.291 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@100981ed[hotelRecommendations] main]
+2016-10-24 02:06:18.297 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf
+2016-10-24 02:06:18.297 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf}
+2016-10-24 02:06:18.303 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf
+2016-10-24 02:06:18.303 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-10-24 02:06:18.308 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2016-10-24 02:06:18.312 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2016-10-24 02:06:18.313 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2016-10-24 02:06:18.314 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf/elevate.xml
+2016-10-24 02:06:18.322 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-10-24 02:06:18.331 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-10-24 02:06:18.331 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@100981ed[hotelRecommendations] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_9a(6.2.1):c94708/76944:delGen=2) Uninverting(_9m(6.2.1):C301937/122708:delGen=3) Uninverting(_95(6.2.1):C79551) Uninverting(_96(6.2.1):C56104) Uninverting(_98(6.2.1):C77272) Uninverting(_9c(6.2.1):C78602) Uninverting(_9f(6.2.1):C77426) Uninverting(_9i(6.2.1):C77279) Uninverting(_9j(6.2.1):C48789) Uninverting(_9l(6.2.1):C78558) Uninverting(_9n(6.2.1):C38240) Uninverting(_9o(6.2.1):C10660) Uninverting(_9p(6.2.1):C77051) Uninverting(_9q(6.2.1):C37536) Uninverting(_9r(6.2.1):C10504) Uninverting(_9s(6.2.1):C77232) Uninverting(_9t(6.2.1):C26778)))}
+2016-10-24 02:06:18.332 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-10-24 02:06:18.332 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2016-10-24 02:06:18.332 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.SolrCore [hotelRecommendations] Registered new searcher Searcher@100981ed[hotelRecommendations] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_9a(6.2.1):c94708/76944:delGen=2) Uninverting(_9m(6.2.1):C301937/122708:delGen=3) Uninverting(_95(6.2.1):C79551) Uninverting(_96(6.2.1):C56104) Uninverting(_98(6.2.1):C77272) Uninverting(_9c(6.2.1):C78602) Uninverting(_9f(6.2.1):C77426) Uninverting(_9i(6.2.1):C77279) Uninverting(_9j(6.2.1):C48789) Uninverting(_9l(6.2.1):C78558) Uninverting(_9n(6.2.1):C38240) Uninverting(_9o(6.2.1):C10660) Uninverting(_9p(6.2.1):C77051) Uninverting(_9q(6.2.1):C37536) Uninverting(_9r(6.2.1):C10504) Uninverting(_9s(6.2.1):C77232) Uninverting(_9t(6.2.1):C26778)))}
+2016-10-24 02:06:18.332 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-10-24 02:06:18.352 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.VersionInfo Found MAX value 1549031375419473925 from Terms for _version_ in index
+2016-10-24 02:06:18.356 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.UpdateLog Took 23.0ms to seed version buckets with highest version 1549031375419473925
+2016-10-24 02:06:18.356 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.CoreContainer registering core: hotelRecommendations
+2016-10-24 02:07:03.819 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=} hits=1048575 status=0 QTime=211
+2016-10-24 02:07:03.820 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.PluginBag Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,args = {template.base.dir=,solr.resource.loader.enabled=true,params.resource.loader.enabled=false}} 
+2016-10-24 02:07:13.004 INFO  (qtp1791930789-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477274832857} status=0 QTime=1
+2016-10-24 02:07:13.038 INFO  (qtp1791930789-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477274832858} status=0 QTime=34
+2016-10-24 02:07:13.055 INFO  (qtp1791930789-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477274832858} status=0 QTime=13
+2016-10-24 02:07:15.042 INFO  (qtp1791930789-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477274832857} status=0 QTime=0
+2016-10-24 02:07:15.046 INFO  (qtp1791930789-18) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1477274835035} status=0 QTime=1
+2016-10-24 02:07:15.049 INFO  (qtp1791930789-22) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1477274832858&ts=1477274832858} status=503 QTime=2
+2016-10-24 02:07:15.051 INFO  (qtp1791930789-33) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/replication params={wt=json&command=details&_=1477274835035} status=0 QTime=5
+2016-10-24 02:07:15.059 INFO  (qtp1791930789-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477274832858} status=0 QTime=15
+2016-10-24 02:07:15.060 INFO  (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/system params={wt=json&_=1477274835035} status=0 QTime=14
+2016-10-24 02:07:16.749 INFO  (qtp1791930789-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477274832857} status=0 QTime=0
+2016-10-24 02:07:16.751 INFO  (qtp1791930789-22) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={wt=json&_=1477274836745} status=0 QTime=0
+2016-10-24 02:07:16.764 INFO  (qtp1791930789-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477274832858} status=0 QTime=13
+2016-10-24 02:07:16.772 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1477274836745} status=0 QTime=0
+2016-10-24 02:07:18.595 INFO  (qtp1791930789-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477274832857} status=0 QTime=0
+2016-10-24 02:07:18.607 INFO  (qtp1791930789-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477274832858} status=0 QTime=12
+2016-10-24 02:07:20.614 INFO  (qtp1791930789-33) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1477274838562} hits=1048575 status=0 QTime=21
+2016-10-24 02:08:25.364 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf/managed-schema
+2016-10-24 02:08:40.411 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-24 02:08:40.412 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7a91b2f3
+2016-10-24 02:08:41.917 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_j,generation=19}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_k,generation=20}
+2016-10-24 02:08:41.917 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 20
+2016-10-24 02:08:42.354 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@7a8e81af[hotelRecommendations] realtime]
+2016-10-24 02:08:42.356 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-24 02:08:55.411 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-24 02:08:55.413 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7a91b2f3
+2016-10-24 02:08:56.393 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_k,generation=20}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_l,generation=21}
+2016-10-24 02:08:56.393 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 21
+2016-10-24 02:08:56.598 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@76acf842[hotelRecommendations] realtime]
+2016-10-24 02:08:56.600 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-24 02:09:10.415 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-24 02:09:10.415 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7a91b2f3
+2016-10-24 02:09:11.563 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_l,generation=21}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_m,generation=22}
+2016-10-24 02:09:11.563 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 22
+2016-10-24 02:09:11.815 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@6e4e25d0[hotelRecommendations] realtime]
+2016-10-24 02:09:11.817 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-24 02:09:25.415 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-24 02:09:25.418 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7a91b2f3
+2016-10-24 02:09:26.517 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_m,generation=22}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_n,generation=23}
+2016-10-24 02:09:26.517 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 23
+2016-10-24 02:09:26.774 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@2fcf1a19[hotelRecommendations] realtime]
+2016-10-24 02:09:26.776 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-24 02:09:40.418 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-24 02:09:40.420 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7a91b2f3
+2016-10-24 02:09:41.424 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_n,generation=23}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_o,generation=24}
+2016-10-24 02:09:41.424 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 24
+2016-10-24 02:09:41.699 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@69662ac[hotelRecommendations] realtime]
+2016-10-24 02:09:41.701 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-24 02:09:55.420 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-24 02:09:55.422 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7a91b2f3
+2016-10-24 02:09:56.309 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_o,generation=24}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_p,generation=25}
+2016-10-24 02:09:56.309 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 25
+2016-10-24 02:09:56.495 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@3e61bf2c[hotelRecommendations] realtime]
+2016-10-24 02:09:56.523 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-24 02:10:10.423 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-24 02:10:10.423 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7a91b2f3
+2016-10-24 02:10:11.931 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_p,generation=25}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_q,generation=26}
+2016-10-24 02:10:11.931 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 26
+2016-10-24 02:10:12.246 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@55cefa4b[hotelRecommendations] realtime]
+2016-10-24 02:10:12.247 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-24 02:10:25.427 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-24 02:10:25.429 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7a91b2f3
+2016-10-24 02:10:25.896 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.u.p.LogUpdateProcessorFactory [hotelRecommendations]  webapp=/solr path=/update params={}{add=[0 (1549035011096707072), 1 (1549035011215196160), 2 (1549035011221487616), 3 (1549035011223584768), 4 (1549035011225681920), 5 (1549035011227779072), 6 (1549035011229876224), 7 (1549035011231973376), 8 (1549035011235119104), 9 (1549035011237216256), ... (1048575 adds)]} 0 120619
+2016-10-24 02:10:26.402 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_q,generation=26}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_r,generation=27}
+2016-10-24 02:10:26.402 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 27
+2016-10-24 02:10:26.529 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@4236d61c[hotelRecommendations] realtime]
+2016-10-24 02:10:26.542 INFO  (commitScheduler-10-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-24 02:10:26.542 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-24 02:10:26.542 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@7a91b2f3
+2016-10-24 02:10:26.549 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_r,generation=27}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4395dd24; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_s,generation=28}
+2016-10-24 02:10:26.549 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 28
+2016-10-24 02:10:26.552 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@4c600dec[hotelRecommendations] main]
+2016-10-24 02:10:26.554 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@4c600dec[hotelRecommendations] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a5(6.2.1):C713369/402791:delGen=3) Uninverting(_ai(6.2.1):c106277/26778:delGen=2) Uninverting(_9v(6.2.1):C45241) Uninverting(_9y(6.2.1):C34372) Uninverting(_a1(6.2.1):C48328) Uninverting(_a4(6.2.1):C44800) Uninverting(_a7(6.2.1):C77445) Uninverting(_a8(6.2.1):C39537) Uninverting(_aa(6.2.1):C78654) Uninverting(_ab(6.2.1):C32152) Uninverting(_ad(6.2.1):C77230) Uninverting(_ae(6.2.1):C57391) Uninverting(_ag(6.2.1):C77285) Uninverting(_ah(6.2.1):C40733) Uninverting(_aj(6.2.1):C5330)))}
+2016-10-24 02:10:26.555 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-10-24 02:10:26.555 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.SolrCore [hotelRecommendations] Registered new searcher Searcher@4c600dec[hotelRecommendations] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a5(6.2.1):C713369/402791:delGen=3) Uninverting(_ai(6.2.1):c106277/26778:delGen=2) Uninverting(_9v(6.2.1):C45241) Uninverting(_9y(6.2.1):C34372) Uninverting(_a1(6.2.1):C48328) Uninverting(_a4(6.2.1):C44800) Uninverting(_a7(6.2.1):C77445) Uninverting(_a8(6.2.1):C39537) Uninverting(_aa(6.2.1):C78654) Uninverting(_ab(6.2.1):C32152) Uninverting(_ad(6.2.1):C77230) Uninverting(_ae(6.2.1):C57391) Uninverting(_ag(6.2.1):C77285) Uninverting(_ah(6.2.1):C40733) Uninverting(_aj(6.2.1):C5330)))}
+2016-10-24 02:10:26.558 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-24 02:10:26.614 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.u.p.LogUpdateProcessorFactory [hotelRecommendations]  webapp=/solr path=/update params={commit=true}{commit=} 0 710
+2016-10-24 02:13:38.523 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:13:38.524 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=500 QTime=4
+2016-10-24 02:13:38.524 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.s.HttpSolrCall null:org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:13:47.986 ERROR (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:13:47.987 INFO  (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=500 QTime=1
+2016-10-24 02:13:47.987 ERROR (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.s.HttpSolrCall null:org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:15:01.424 ERROR (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:15:01.424 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=500 QTime=0
+2016-10-24 02:15:01.425 ERROR (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.s.HttpSolrCall null:org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:15:13.483 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=57
+2016-10-24 02:15:21.611 INFO  (qtp1791930789-22) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=ver} hits=0 status=0 QTime=13
+2016-10-24 02:15:43.111 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:15:43.111 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=500 QTime=0
+2016-10-24 02:15:43.112 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.s.HttpSolrCall null:org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:16:42.573 ERROR (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=64 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:16:42.573 INFO  (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=500 QTime=0
+2016-10-24 02:16:42.574 ERROR (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.s.HttpSolrCall null:org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=64 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:17:21.829 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:17:21.829 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=500 QTime=0
+2016-10-24 02:17:21.829 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.s.HttpSolrCall null:org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=66 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:17:48.673 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=45 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:17:48.674 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=500 QTime=1
+2016-10-24 02:17:48.674 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.s.HttpSolrCall null:org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=45 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:18:09.018 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=0 QTime=0
+2016-10-24 02:18:13.522 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config params={} status=0 QTime=1
+2016-10-24 02:19:08.320 ERROR (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=45 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:19:08.320 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=500 QTime=0
+2016-10-24 02:19:08.321 ERROR (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.s.HttpSolrCall null:org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=45 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:22:41.546 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.SolrResourceLoader Written confile params.json
+2016-10-24 02:22:41.547 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.SolrConfig current version of requestparams : 0
+2016-10-24 02:22:41.547 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=0 QTime=3
+2016-10-24 02:23:08.454 ERROR (qtp1791930789-45) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=45 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:23:08.454 INFO  (qtp1791930789-45) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=500 QTime=0
+2016-10-24 02:23:08.455 ERROR (qtp1791930789-45) [   x:hotelRecommendations] o.a.s.s.HttpSolrCall null:org.noggit.JSONParser$ParseException: Unexpected EOF: char=(EOF),position=45 BEFORE=''
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.getMore(JSONParser.java:205)
+	at org.noggit.JSONParser.readStringChars2(JSONParser.java:646)
+	at org.noggit.JSONParser.readStringChars(JSONParser.java:626)
+	at org.noggit.JSONParser.getStringChars(JSONParser.java:1029)
+	at org.noggit.JSONParser.getString(JSONParser.java:1017)
+	at org.noggit.ObjectBuilder.getKey(ObjectBuilder.java:107)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:126)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.noggit.ObjectBuilder.getObject(ObjectBuilder.java:128)
+	at org.noggit.ObjectBuilder.getVal(ObjectBuilder.java:57)
+	at org.apache.solr.util.CommandOperation.parse(CommandOperation.java:235)
+	at org.apache.solr.util.CommandOperation.readCommands(CommandOperation.java:287)
+	at org.apache.solr.handler.SolrConfigHandler$Command.handlePOST(SolrConfigHandler.java:252)
+	at org.apache.solr.handler.SolrConfigHandler$Command.access$100(SolrConfigHandler.java:144)
+	at org.apache.solr.handler.SolrConfigHandler.handleRequestBody(SolrConfigHandler.java:122)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:28:51.986 INFO  (qtp1791930789-18) [   x:hotelRecommendations] o.a.s.c.SolrResourceLoader Written confile params.json
+2016-10-24 02:28:51.987 INFO  (qtp1791930789-18) [   x:hotelRecommendations] o.a.s.c.SolrConfig current version of requestparams : 0
+2016-10-24 02:28:51.987 INFO  (qtp1791930789-18) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=0 QTime=1
+2016-10-24 02:29:00.508 INFO  (qtp1791930789-22) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=0 QTime=0
+2016-10-24 02:29:11.319 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=27
+2016-10-24 02:29:27.009 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=jordan} hits=117 status=0 QTime=11
+2016-10-24 02:30:02.356 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=jor} hits=0 status=0 QTime=1
+2016-10-24 02:35:12.855 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/config/params params={} status=0 QTime=0
+2016-10-24 02:35:19.766 INFO  (qtp1791930789-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477276519630} status=0 QTime=0
+2016-10-24 02:35:19.787 INFO  (qtp1791930789-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477276519631} status=0 QTime=20
+2016-10-24 02:35:19.804 INFO  (qtp1791930789-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477276519631} status=0 QTime=14
+2016-10-24 02:35:21.547 INFO  (qtp1791930789-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477276519630} status=0 QTime=0
+2016-10-24 02:35:21.550 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1477276521539} status=0 QTime=1
+2016-10-24 02:35:21.552 INFO  (qtp1791930789-45) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1477276519631&ts=1477276519631} status=503 QTime=0
+2016-10-24 02:35:21.561 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/replication params={wt=json&command=details&_=1477276521540} status=0 QTime=10
+2016-10-24 02:35:21.568 INFO  (qtp1791930789-47) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477276519631} status=0 QTime=20
+2016-10-24 02:35:21.568 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/system params={wt=json&_=1477276521539} status=0 QTime=17
+2016-10-24 02:35:25.399 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=11
+2016-10-24 02:35:25.417 ERROR (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:35:25.424 ERROR (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:35:25.471 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:35:25.472 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1
+2016-10-24 02:35:25.472 INFO  (qtp1791930789-45) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1
+2016-10-24 02:35:57.453 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Missing required parameter: mlt.fl
+	at org.apache.solr.common.params.RequiredSolrParams.getParams(RequiredSolrParams.java:90)
+	at org.apache.solr.handler.MoreLikeThisHandler$MoreLikeThisHelper.<init>(MoreLikeThisHandler.java:308)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.getMoreLikeThese(MoreLikeThisComponent.java:357)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.process(MoreLikeThisComponent.java:123)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:295)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:35:57.453 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=id:"0"&mlt=true} hits=1 status=400 QTime=3
+2016-10-24 02:35:57.467 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:35:57.470 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:35:57.485 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:35:57.485 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:35:57.489 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:36:04.484 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=&fq=names:"Jordan"} hits=117 status=0 QTime=6
+2016-10-24 02:36:04.505 ERROR (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:36:04.508 ERROR (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:36:04.554 INFO  (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:36:04.554 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:36:04.557 INFO  (qtp1791930789-22) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:36:06.430 ERROR (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Missing required parameter: mlt.fl
+	at org.apache.solr.common.params.RequiredSolrParams.getParams(RequiredSolrParams.java:90)
+	at org.apache.solr.handler.MoreLikeThisHandler$MoreLikeThisHelper.<init>(MoreLikeThisHandler.java:308)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.getMoreLikeThese(MoreLikeThisComponent.java:357)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.process(MoreLikeThisComponent.java:123)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:295)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:36:06.430 INFO  (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=id:"298"&mlt=true&fq=names:"Jordan"} hits=1 status=400 QTime=14
+2016-10-24 02:36:06.443 ERROR (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:36:06.445 ERROR (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:36:06.458 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:36:06.458 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:36:06.458 INFO  (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:36:48.424 ERROR (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Missing required parameter: mlt.fl
+	at org.apache.solr.common.params.RequiredSolrParams.getParams(RequiredSolrParams.java:90)
+	at org.apache.solr.handler.MoreLikeThisHandler$MoreLikeThisHelper.<init>(MoreLikeThisHandler.java:308)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.getMoreLikeThese(MoreLikeThisComponent.java:357)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.process(MoreLikeThisComponent.java:123)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:295)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:36:48.425 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=id:"2402"&mlt=true&fq=names:"Jordan"} hits=1 status=400 QTime=4
+2016-10-24 02:36:48.434 ERROR (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:36:48.436 ERROR (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:36:48.448 INFO  (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:36:48.448 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:36:48.448 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:36:58.935 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Missing required parameter: mlt.fl
+	at org.apache.solr.common.params.RequiredSolrParams.getParams(RequiredSolrParams.java:90)
+	at org.apache.solr.handler.MoreLikeThisHandler$MoreLikeThisHelper.<init>(MoreLikeThisHandler.java:308)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.getMoreLikeThese(MoreLikeThisComponent.java:357)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.process(MoreLikeThisComponent.java:123)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:295)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:36:58.935 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=id:"3531"&mlt=true&fq=names:"Jordan"} hits=1 status=400 QTime=3
+2016-10-24 02:36:58.945 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:36:58.947 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:36:58.961 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:36:58.961 INFO  (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1
+2016-10-24 02:36:58.963 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:37:09.490 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /terms,class = solr.SearchHandler,args = {defaults={terms=true,distrib=false},components=[terms]}} 
+2016-10-24 02:37:09.490 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/terms params={q=jor&terms.prefix=jor&v.template=suggest&terms.fl=name&limit=10&terms.sort=count&wt=velocity&timestamp=1477276629487} status=0 QTime=0
+2016-10-24 02:37:10.470 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=jor&fq=names:"Jordan"} hits=0 status=0 QTime=1
+2016-10-24 02:37:10.480 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:37:10.481 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:37:10.491 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:37:10.491 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:37:10.491 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:37:16.712 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=10
+2016-10-24 02:37:16.726 ERROR (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:37:16.732 ERROR (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:37:16.756 INFO  (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:37:16.756 INFO  (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:37:16.756 INFO  (qtp1791930789-22) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1
+2016-10-24 02:37:18.765 INFO  (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=jor} hits=0 status=0 QTime=1
+2016-10-24 02:37:18.775 ERROR (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:37:18.776 ERROR (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:37:18.786 INFO  (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:37:18.786 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:37:18.786 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:37:34.071 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={queryOpts=spatial} hits=1048575 status=0 QTime=10
+2016-10-24 02:37:34.080 ERROR (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:37:34.085 ERROR (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:37:34.116 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:37:34.118 INFO  (qtp1791930789-22) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:37:34.120 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=1
+2016-10-24 02:37:36.577 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=&queryOpts=spatial&fq=names:"Quinn"} hits=114 status=0 QTime=6
+2016-10-24 02:37:36.591 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:37:36.592 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:37:36.614 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:37:36.614 INFO  (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:37:36.614 INFO  (qtp1791930789-22) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:38:59.320 INFO  (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=jor} hits=0 status=0 QTime=0
+2016-10-24 02:38:59.328 ERROR (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:38:59.329 ERROR (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:38:59.337 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:38:59.337 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:38:59.337 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:39:02.390 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=9
+2016-10-24 02:39:02.400 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:39:02.403 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:39:02.424 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:39:02.424 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:39:02.424 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:39:50.605 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=10
+2016-10-24 02:39:50.613 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:39:50.616 ERROR (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:39:50.640 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:39:50.641 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:39:50.641 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:39:52.884 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=10
+2016-10-24 02:39:52.894 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:39:52.897 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:39:52.918 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:39:52.918 INFO  (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:39:52.918 INFO  (qtp1791930789-22) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:39:54.133 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=&fq=names:"Quinn"} hits=114 status=0 QTime=1
+2016-10-24 02:39:54.143 ERROR (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:39:54.145 ERROR (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:39:54.172 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=6
+2016-10-24 02:39:54.172 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:39:54.173 INFO  (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=7
+2016-10-24 02:41:03.517 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=&fq=names:"Quinn"} hits=114 status=0 QTime=1
+2016-10-24 02:41:03.528 ERROR (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:41:03.550 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:03.551 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:03.551 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:41:06.535 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=9
+2016-10-24 02:41:06.549 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:41:06.570 INFO  (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:06.570 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:06.570 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:41:11.003 INFO  (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={queryOpts=spatial} hits=1048575 status=0 QTime=11
+2016-10-24 02:41:11.015 ERROR (qtp1791930789-47) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:41:11.038 INFO  (qtp1791930789-44) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:11.038 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:11.038 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:41:14.869 ERROR (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field: "manu_exact"
+	at org.apache.solr.schema.IndexSchema.getField(IndexSchema.java:1231)
+	at org.apache.solr.search.Grouping.addFieldCommand(Grouping.java:151)
+	at org.apache.solr.handler.component.QueryComponent.process(QueryComponent.java:483)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:295)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2089)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:652)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:459)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:41:14.870 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={queryOpts=group&group.field=manu_exact&group=true} status=400 QTime=7
+2016-10-24 02:41:14.877 ERROR (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($field.size()) of '>' operation has null value at VM_global_library.vm[line 82, column 22]
+2016-10-24 02:41:14.877 ERROR (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:41:14.886 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:14.886 INFO  (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:41:14.886 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:17.227 INFO  (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=10
+2016-10-24 02:41:17.238 ERROR (qtp1791930789-46) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:41:17.257 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:17.257 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:41:17.257 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:48.646 INFO  (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=1048575 status=0 QTime=9
+2016-10-24 02:41:48.657 ERROR (qtp1791930789-16) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2016-10-24 02:41:48.678 INFO  (qtp1791930789-48) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:48.678 INFO  (qtp1791930789-38) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:41:48.678 INFO  (qtp1791930789-35) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:42:14.193 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@139982de{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-10-24 02:42:14.194 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=364604394
+2016-10-24 02:42:14.195 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [hotelRecommendations]  CLOSING SolrCore org.apache.solr.core.SolrCore@bcf8706
+2016-10-24 02:42:14.195 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=9,autocommit maxTime=15000ms,autocommits=8,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=1048575,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=1}
+2016-10-24 02:42:14.195 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrCoreState Closing SolrCoreState
+2016-10-24 02:42:14.196 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2016-10-24 02:42:14.196 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2016-10-24 02:42:14.197 ERROR (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Error closing IndexWriter
+java.nio.file.NoSuchFileException: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index/write.lock
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at java.nio.file.Files.readAttributes(Files.java:1737)
+	at org.apache.lucene.store.NativeFSLockFactory$NativeFSLock.ensureValid(NativeFSLockFactory.java:177)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.createOutput(LockValidatingDirectoryWrapper.java:43)
+	at org.apache.lucene.store.TrackingDirectoryWrapper.createOutput(TrackingDirectoryWrapper.java:43)
+	at org.apache.lucene.codecs.lucene50.Lucene50LiveDocsFormat.writeLiveDocs(Lucene50LiveDocsFormat.java:117)
+	at org.apache.lucene.index.ReadersAndUpdates.writeLiveDocs(ReadersAndUpdates.java:283)
+	at org.apache.lucene.index.IndexWriter$ReaderPool.commit(IndexWriter.java:648)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2989)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:3206)
+	at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1119)
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1162)
+	at org.apache.solr.update.SolrIndexWriter.close(SolrIndexWriter.java:142)
+	at org.apache.solr.update.DirectUpdateHandler2.closeWriter(DirectUpdateHandler2.java:817)
+	at org.apache.solr.update.DefaultSolrCoreState.closeIndexWriter(DefaultSolrCoreState.java:88)
+	at org.apache.solr.update.DefaultSolrCoreState.close(DefaultSolrCoreState.java:376)
+	at org.apache.solr.update.SolrCoreState.decrefSolrCoreState(SolrCoreState.java:74)
+	at org.apache.solr.core.SolrCore.close(SolrCore.java:1213)
+	at org.apache.solr.core.SolrCores.lambda$close$0(SolrCores.java:129)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:229)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-24 02:42:14.199 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [hotelRecommendations] Closing main searcher on request.
+2016-10-24 02:42:14.225 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 3 directories currently being tracked
+2016-10-24 02:42:14.226 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory looking to close /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index [CachedDir<<refCount=0;path=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index;done=false>>]
+2016-10-24 02:42:14.226 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory, CoreContainer#isShutdown=true
+2016-10-24 02:42:14.226 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index
+2016-10-24 02:42:14.226 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory looking to close /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data [CachedDir<<refCount=0;path=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data;done=false>>]
+2016-10-24 02:42:14.226 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory, CoreContainer#isShutdown=true
+2016-10-24 02:42:14.226 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data
+2016-10-24 02:42:14.226 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory looking to close /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/snapshot_metadata [CachedDir<<refCount=0;path=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/snapshot_metadata;done=false>>]
+2016-10-24 02:42:14.226 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory, CoreContainer#isShutdown=true
+2016-10-24 02:42:14.226 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/snapshot_metadata
+2016-10-24 02:42:14.229 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@71423665{/solr,null,UNAVAILABLE}{/Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp}
+2016-10-24 02:42:14.230 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.

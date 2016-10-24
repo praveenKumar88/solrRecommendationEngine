@@ -1,0 +1,372 @@
+2016-10-24 02:45:26.061 INFO  (main) [   ] o.e.j.u.log Logging initialized @274ms
+2016-10-24 02:45:26.186 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2016-10-24 02:45:26.198 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/pparthasarathy/solr-6.2.1/server/contexts/] at interval 0
+2016-10-24 02:45:26.375 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-10-24 02:45:26.384 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@71423665{/solr,file:///Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp/,STARTING}{/Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-10-24 02:45:26.391 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1519280649@5a8e6209
+2016-10-24 02:45:26.404 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-24 02:45:26.404 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:45:26.404 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/pparthasarathy/solr-6.2.1/server/solr'
+2016-10-24 02:45:26.404 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-24 02:45:26.404 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:45:26.409 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/pparthasarathy/solr-6.2.1/server/solr/solr.xml
+2016-10-24 02:45:26.464 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:45:26.483 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 364604394
+2016-10-24 02:45:26.484 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/pparthasarathy/solr-6.2.1/server/solr]
+2016-10-24 02:45:26.484 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/pparthasarathy/solr-6.2.1/server/solr/lib to classpath: /Users/pparthasarathy/solr-6.2.1/server/solr/lib
+2016-10-24 02:45:26.492 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2016-10-24 02:45:26.704 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-10-24 02:45:26.706 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-10-24 02:45:26.707 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-10-24 02:45:26.709 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-10-24 02:45:26.709 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-10-24 02:45:26.749 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:45:26.759 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=hotelRecommendations, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data/}
+2016-10-24 02:45:26.759 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core hotelRecommendations in /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations
+2016-10-24 02:45:26.760 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-10-24 02:45:26.766 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/pparthasarathy/solr-6.2.1/server
+2016-10-24 02:45:26.766 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-10-24 02:45:26.767 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations'
+2016-10-24 02:45:26.767 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-24 02:45:26.767 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/pparthasarathy/solr-6.2.1/server/solr
+2016-10-24 02:45:26.777 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@71423665{/solr,file:///Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp/,AVAILABLE}{/Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp}
+2016-10-24 02:45:26.794 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@139982de{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-10-24 02:45:26.794 INFO  (main) [   ] o.e.j.s.Server Started @1008ms
+2016-10-24 02:45:26.826 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2016-10-24 02:45:26.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-10-24 02:45:26.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/commons-compress-1.11.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/fontbox-2.0.1.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/icu4j-56.1.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/isoparser-1.1.18.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/jackcess-2.1.3.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2016-10-24 02:45:26.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/jempbox-1.8.12.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/metadata-extractor-2.8.1.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/pdfbox-2.0.1.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/pdfbox-tools-2.0.1.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/poi-3.15-beta1.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/poi-ooxml-3.15-beta1.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/poi-ooxml-schemas-3.15-beta1.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/poi-scratchpad-3.15-beta1.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/rome-1.0.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tika-core-1.13.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tika-java7-1.13.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tika-parsers-1.13.jar' to classloader
+2016-10-24 02:45:26.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/tika-xmp-1.13.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/vorbis-java-core-0.8.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/vorbis-java-tika-0.8.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/extraction/lib/xz-1.5.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/dist/solr-cell-6.2.1.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/attributes-binder-1.3.1.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/carrot2-mini-3.12.0.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/dist/solr-clustering-6.2.1.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2016-10-24 02:45:26.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/dist/solr-langid-6.2.1.jar' to classloader
+2016-10-24 02:45:26.837 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2016-10-24 02:45:26.837 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2016-10-24 02:45:26.837 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2016-10-24 02:45:26.837 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2016-10-24 02:45:26.837 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/Users/pparthasarathy/solr-6.2.1/dist/solr-velocity-6.2.1.jar' to classloader
+2016-10-24 02:45:26.971 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2016-10-24 02:45:26.977 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.2.1
+2016-10-24 02:45:27.054 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-10-24 02:45:27.100 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [hotelRecommendations] Schema name=example
+2016-10-24 02:45:27.413 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-10-24 02:45:27.525 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+2016-10-24 02:45:27.525 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+2016-10-24 02:45:27.531 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Added observer of type org.apache.solr.rest.schema.analysis.ManagedStopFilterFactory to existing ManagedResource /schema/analysis/stopwords/english
+2016-10-24 02:45:27.531 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Added observer of type org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory to existing ManagedResource /schema/analysis/synonyms/english
+2016-10-24 02:45:27.542 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-10-24 02:45:27.544 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-10-24 02:45:27.559 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations'
+2016-10-24 02:45:27.559 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'hotelRecommendations' using configuration from instancedir /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations
+2016-10-24 02:45:27.574 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-10-24 02:45:27.583 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [[hotelRecommendations] ] Opening new SolrCore at [/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations], dataDir=[/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/]
+2016-10-24 02:45:27.584 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-10-24 02:45:27.587 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [[hotelRecommendations] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-10-24 02:45:27.587 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [[hotelRecommendations] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2016-10-24 02:45:27.597 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory return new directory for /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/snapshot_metadata
+2016-10-24 02:45:27.598 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.s.SolrSnapshotMetaDataManager Loading from snapshot metadata file...
+2016-10-24 02:45:27.600 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2016-10-24 02:45:27.601 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory return new directory for /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data
+2016-10-24 02:45:27.601 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore New index directory detected: old=null new=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index/
+2016-10-24 02:45:27.601 WARN  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [hotelRecommendations] Solr index directory '/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index' doesn't exist. Creating new index...
+2016-10-24 02:45:27.609 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory return new directory for /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index
+2016-10-24 02:45:27.638 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@74cf44fd; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2016-10-24 02:45:27.639 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 1
+2016-10-24 02:45:27.640 INFO  (OldIndexDirectoryCleanupThreadForCore-hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.SolrCore Looking for old index directories to cleanup for core hotelRecommendations in /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/
+2016-10-24 02:45:27.642 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2016-10-24 02:45:27.644 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2016-10-24 02:45:27.712 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-10-24 02:45:27.731 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-24 02:45:27.733 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-24 02:45:27.733 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-24 02:45:27.734 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-24 02:45:27.791 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-10-24 02:45:27.791 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2016-10-24 02:45:27.791 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-10-24 02:45:27.791 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-10-24 02:45:27.792 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2016-10-24 02:45:27.792 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2016-10-24 02:45:27.792 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2016-10-24 02:45:27.793 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2016-10-24 02:45:27.793 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/sql,/graph,/tvrh,/select,/admin/segments,/admin/system,/suggest,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/terms,/debug/dump,/update/extract
+2016-10-24 02:45:27.793 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-10-24 02:45:27.800 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-10-24 02:45:27.800 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-10-24 02:45:27.805 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-10-24 02:45:27.805 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-10-24 02:45:27.810 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@74cf44fd; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2016-10-24 02:45:27.810 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrDeletionPolicy newest commit generation = 1
+2016-10-24 02:45:27.817 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.s.SolrIndexSearcher Opening [Searcher@5c663b3f[hotelRecommendations] main]
+2016-10-24 02:45:27.821 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf
+2016-10-24 02:45:27.821 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf}
+2016-10-24 02:45:27.822 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf
+2016-10-24 02:45:27.823 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf
+2016-10-24 02:45:27.823 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2016-10-24 02:45:27.823 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.RestManager Initializing 2 registered ManagedResources
+2016-10-24 02:45:27.823 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_stopwords_english.json using file:dir=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf
+2016-10-24 02:45:27.824 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf
+2016-10-24 02:45:27.824 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+2016-10-24 02:45:27.824 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.s.a.ManagedWordSetResource Loaded 35 words for /schema/analysis/stopwords/english
+2016-10-24 02:45:27.824 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResource Notified 2 observers of /schema/analysis/stopwords/english
+2016-10-24 02:45:27.825 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_synonyms_english.json using file:dir=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf
+2016-10-24 02:45:27.825 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf
+2016-10-24 02:45:27.825 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+2016-10-24 02:45:27.825 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.s.a.ManagedSynonymFilterFactory Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+2016-10-24 02:45:27.826 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.r.ManagedResource Notified 2 observers of /schema/analysis/synonyms/english
+2016-10-24 02:45:27.831 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2016-10-24 02:45:27.835 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2016-10-24 02:45:27.839 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2016-10-24 02:45:27.840 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2016-10-24 02:45:27.841 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2016-10-24 02:45:27.850 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2016-10-24 02:45:27.851 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/conf/elevate.xml
+2016-10-24 02:45:27.858 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-10-24 02:45:27.866 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5c663b3f[hotelRecommendations] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2016-10-24 02:45:27.867 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-10-24 02:45:27.868 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-10-24 02:45:27.868 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2016-10-24 02:45:27.868 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1549037341631315968
+2016-10-24 02:45:27.871 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.u.UpdateLog Took 3.0ms to seed version buckets with highest version 1549037341631315968
+2016-10-24 02:45:27.871 INFO  (coreLoadExecutor-6-thread-1) [   x:hotelRecommendations] o.a.s.c.CoreContainer registering core: hotelRecommendations
+2016-10-24 02:45:27.901 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=32
+2016-10-24 02:45:27.901 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-10-24 02:45:27.901 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2016-10-24 02:45:27.901 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2016-10-24 02:45:27.901 INFO  (searcherExecutor-7-thread-1-processing-x:hotelRecommendations) [   x:hotelRecommendations] o.a.s.c.SolrCore [hotelRecommendations] Registered new searcher Searcher@5c663b3f[hotelRecommendations] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2016-10-24 02:45:33.831 INFO  (qtp1791930789-35) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477277133754} status=0 QTime=1
+2016-10-24 02:45:33.857 INFO  (qtp1791930789-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477277133755} status=0 QTime=27
+2016-10-24 02:45:33.878 INFO  (qtp1791930789-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477277133755} status=0 QTime=13
+2016-10-24 02:45:36.421 INFO  (qtp1791930789-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477277133754} status=0 QTime=0
+2016-10-24 02:45:36.425 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1477277136413} status=0 QTime=2
+2016-10-24 02:45:36.426 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/replication params={wt=json&command=details&_=1477277136413} status=0 QTime=2
+2016-10-24 02:45:36.427 INFO  (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1477277133755&ts=1477277133755} status=503 QTime=1
+2016-10-24 02:45:36.440 INFO  (qtp1791930789-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477277133755} status=0 QTime=18
+2016-10-24 02:45:36.441 INFO  (qtp1791930789-33) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/system params={wt=json&_=1477277136413} status=0 QTime=15
+2016-10-24 02:45:38.899 INFO  (qtp1791930789-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477277133754} status=0 QTime=0
+2016-10-24 02:45:38.912 INFO  (qtp1791930789-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477277133755} status=0 QTime=12
+2016-10-24 02:45:41.005 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1477277138866} hits=0 status=0 QTime=1
+2016-10-24 02:45:47.809 INFO  (qtp1791930789-33) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1477277138866} hits=0 status=0 QTime=0
+2016-10-24 02:45:48.670 INFO  (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1477277138866} hits=0 status=0 QTime=0
+2016-10-24 02:45:48.932 INFO  (qtp1791930789-15) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1477277138866} hits=0 status=0 QTime=0
+2016-10-24 02:45:49.146 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1477277138866} hits=0 status=0 QTime=0
+2016-10-24 02:45:51.473 INFO  (qtp1791930789-33) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477277133754} status=0 QTime=0
+2016-10-24 02:45:51.475 INFO  (qtp1791930789-18) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={wt=json&_=1477277151469} status=0 QTime=1
+2016-10-24 02:45:51.488 INFO  (qtp1791930789-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477277133755} status=0 QTime=14
+2016-10-24 02:45:51.496 INFO  (qtp1791930789-20) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=clustering&wt=json&_=1477277151469} status=0 QTime=0
+2016-10-24 02:45:51.497 INFO  (qtp1791930789-15) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=lang&wt=json&_=1477277151469} status=0 QTime=1
+2016-10-24 02:45:51.498 INFO  (qtp1791930789-18) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=xslt&wt=json&_=1477277151469} status=0 QTime=0
+2016-10-24 02:45:51.499 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=velocity&wt=json&_=1477277151469} status=0 QTime=0
+2016-10-24 02:45:51.525 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=clustering/carrot2&wt=json&_=1477277151469} status=0 QTime=0
+2016-10-24 02:45:59.106 INFO  (qtp1791930789-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477277158979} status=0 QTime=0
+2016-10-24 02:45:59.118 INFO  (qtp1791930789-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477277158980} status=0 QTime=12
+2016-10-24 02:45:59.131 INFO  (qtp1791930789-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477277158980} status=0 QTime=10
+2016-10-24 02:45:59.888 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=0 status=0 QTime=36
+2016-10-24 02:45:59.888 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.PluginBag Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,args = {template.base.dir=}} 
+2016-10-24 02:46:00.029 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:46:00.059 INFO  (qtp1791930789-33) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:46:00.059 INFO  (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:46:00.059 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:46:15.313 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={queryOpts=spatial} hits=0 status=0 QTime=5
+2016-10-24 02:46:15.332 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:46:15.355 INFO  (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:46:15.355 INFO  (qtp1791930789-20) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:46:15.356 INFO  (qtp1791930789-20) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:46:16.864 INFO  (qtp1791930789-18) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={queryOpts=group&group.field=manu_exact&group=true} hits=0 status=0 QTime=23
+2016-10-24 02:46:16.881 ERROR (qtp1791930789-18) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:46:16.899 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:46:16.899 INFO  (qtp1791930789-15) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:46:16.900 INFO  (qtp1791930789-33) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:46:19.997 INFO  (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={} hits=0 status=0 QTime=3
+2016-10-24 02:46:20.012 ERROR (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:46:20.029 INFO  (qtp1791930789-18) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:46:20.030 INFO  (qtp1791930789-19) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1
+2016-10-24 02:46:20.029 INFO  (qtp1791930789-20) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:46:31.775 INFO  (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/browse params={q=} hits=0 status=0 QTime=5
+2016-10-24 02:46:31.794 ERROR (qtp1791930789-13) [   x:hotelRecommendations] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2016-10-24 02:46:31.809 INFO  (qtp1791930789-15) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2016-10-24 02:46:31.809 INFO  (qtp1791930789-17) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:46:31.809 INFO  (qtp1791930789-21) [   x:hotelRecommendations] o.a.s.c.S.Request [hotelRecommendations]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2016-10-24 02:49:42.717 INFO  (qtp1791930789-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=11
+2016-10-24 02:49:42.752 INFO  (qtp1791930789-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=13
+2016-10-24 02:49:42.757 WARN  (qtp1791930789-13) [   ] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_1]
+java.nio.file.NoSuchFileException: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index/segments_1
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at java.nio.file.Files.readAttributes(Files.java:1737)
+	at java.nio.file.Files.size(Files.java:2332)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:243)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:128)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:597)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:585)
+	at org.apache.solr.handler.admin.CoreAdminOperation.getCoreStatus(CoreAdminOperation.java:1007)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$3(CoreAdminOperation.java:178)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:1056)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:365)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:156)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:440)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-24 02:49:42.759 ERROR (qtp1791930789-13) [   ] o.a.s.h.a.CoreAdminOperation IO error while trying to get the size of the Directory:java.nio.file.NoSuchFileException: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:407)
+	at java.nio.file.Files.newDirectoryStream(Files.java:457)
+	at org.apache.lucene.store.FSDirectory.listAll(FSDirectory.java:215)
+	at org.apache.lucene.store.FSDirectory.listAll(FSDirectory.java:234)
+	at org.apache.lucene.store.NRTCachingDirectory.listAll(NRTCachingDirectory.java:103)
+	at org.apache.solr.core.DirectoryFactory.sizeOfDirectory(DirectoryFactory.java:246)
+	at org.apache.solr.core.DirectoryFactory.size(DirectoryFactory.java:154)
+	at org.apache.solr.handler.admin.CoreAdminOperation.getIndexSize(CoreAdminOperation.java:1030)
+	at org.apache.solr.handler.admin.CoreAdminOperation.getCoreStatus(CoreAdminOperation.java:1008)
+	at org.apache.solr.handler.admin.CoreAdminOperation.lambda$static$3(CoreAdminOperation.java:178)
+	at org.apache.solr.handler.admin.CoreAdminOperation.execute(CoreAdminOperation.java:1056)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:365)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:156)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:154)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:440)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:518)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-24 02:49:42.759 INFO  (qtp1791930789-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=hotelRecommendations&action=STATUS&wt=json} status=0 QTime=2
+2016-10-24 02:49:51.407 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@139982de{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-10-24 02:49:51.407 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=364604394
+2016-10-24 02:49:51.408 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [hotelRecommendations]  CLOSING SolrCore org.apache.solr.core.SolrCore@1648cfe2
+2016-10-24 02:49:51.409 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+2016-10-24 02:49:51.409 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrCoreState Closing SolrCoreState
+2016-10-24 02:49:51.409 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2016-10-24 02:49:51.409 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2016-10-24 02:49:51.410 ERROR (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.u.SolrIndexWriter Error closing IndexWriter
+java.nio.file.NoSuchFileException: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixPath.toRealPath(UnixPath.java:837)
+	at org.apache.lucene.util.IOUtils.spins(IOUtils.java:468)
+	at org.apache.lucene.util.IOUtils.spins(IOUtils.java:451)
+	at org.apache.lucene.index.ConcurrentMergeScheduler.initDynamicDefaults(ConcurrentMergeScheduler.java:376)
+	at org.apache.lucene.index.ConcurrentMergeScheduler.merge(ConcurrentMergeScheduler.java:464)
+	at org.apache.lucene.index.IndexWriter.waitForMerges(IndexWriter.java:2425)
+	at org.apache.lucene.index.IndexWriter.shutdown(IndexWriter.java:1118)
+	at org.apache.lucene.index.IndexWriter.close(IndexWriter.java:1162)
+	at org.apache.solr.update.SolrIndexWriter.close(SolrIndexWriter.java:142)
+	at org.apache.solr.update.DirectUpdateHandler2.closeWriter(DirectUpdateHandler2.java:817)
+	at org.apache.solr.update.DefaultSolrCoreState.closeIndexWriter(DefaultSolrCoreState.java:88)
+	at org.apache.solr.update.DefaultSolrCoreState.close(DefaultSolrCoreState.java:376)
+	at org.apache.solr.update.SolrCoreState.decrefSolrCoreState(SolrCoreState.java:74)
+	at org.apache.solr.core.SolrCore.close(SolrCore.java:1213)
+	at org.apache.solr.core.SolrCores.lambda$close$0(SolrCores.java:129)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:229)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-24 02:49:51.410 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.SolrCore [hotelRecommendations] Closing main searcher on request.
+2016-10-24 02:49:51.411 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 3 directories currently being tracked
+2016-10-24 02:49:51.411 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory looking to close /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data [CachedDir<<refCount=0;path=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data;done=false>>]
+2016-10-24 02:49:51.412 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory, CoreContainer#isShutdown=true
+2016-10-24 02:49:51.412 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data
+2016-10-24 02:49:51.412 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory looking to close /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index [CachedDir<<refCount=0;path=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index;done=false>>]
+2016-10-24 02:49:51.412 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory, CoreContainer#isShutdown=true
+2016-10-24 02:49:51.412 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/index
+2016-10-24 02:49:51.412 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory looking to close /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/snapshot_metadata [CachedDir<<refCount=0;path=/Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/snapshot_metadata;done=false>>]
+2016-10-24 02:49:51.412 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory, CoreContainer#isShutdown=true
+2016-10-24 02:49:51.412 INFO  (coreCloseExecutor-13-thread-1) [   x:hotelRecommendations] o.a.s.c.CachingDirectoryFactory Closing directory: /Users/pparthasarathy/solr-6.2.1/server/solr/hotelRecommendations/data/snapshot_metadata
+2016-10-24 02:49:51.415 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@71423665{/solr,null,UNAVAILABLE}{/Users/pparthasarathy/solr-6.2.1/server/solr-webapp/webapp}
+2016-10-24 02:49:51.416 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.
