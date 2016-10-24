@@ -1344,7 +1344,7 @@ user_location_region^2 srch_destination_id^3
       <!-- Configure the remaining request handler parameters. -->
       <str name="defType">edismax</str>
       <str name="qf">
-        id^10.0
+        text^0.5 features^1.0 name^1.2 sku^1.5 id^10.0 manu^1.1 cat^1.4
       </str>
       <str name="q.alt">*:*</str>
       <str name="rows">100</str>
