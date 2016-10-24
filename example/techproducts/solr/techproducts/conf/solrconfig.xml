@@ -583,7 +583,14 @@
     <!-- QuerySenderListener takes an array of NamedList and executes a
          local query request for each NamedList in sequence. 
       -->
-
+    <listener event="newSearcher" class="solr.QuerySenderListener">
+      <arr name="queries">
+        <!--
+           <lst><str name="q">solr</str><str name="sort">price asc</str></lst>
+           <lst><str name="q">rocks</str><str name="sort">weight asc</str></lst>
+          -->
+      </arr>
+    </listener>
     <listener event="firstSearcher" class="solr.QuerySenderListener">
       <arr name="queries">
         <lst>
@@ -813,7 +820,6 @@
     <!--
        <lst name="invariants">
          <str name="facet.field">user_id</str>
-         <str name="facet.field">user_location_city</str>
          <str name="facet.query">srch_children_cnt:0</str>
        </lst>
       -->
@@ -861,29 +867,26 @@
        <!-- Query settings -->
        <str name="defType">edismax</str>
        <str name="qf">
-          text^0.5 features^1.0 name^1.2 sku^1.5 id^10.0 manu^1.1 cat^1.4
-          title^10.0 description^5.0 keywords^5.0 author^2.0 resourcename^1.0
-       </str>
+user_id^1.5       
+</str>
        <str name="mm">100%</str>
        <str name="q.alt">*:*</str>
        <str name="rows">10</str>
        <str name="fl">*,score</str>
 
        <str name="mlt.qf">
-         text^0.5 features^1.0 name^1.2 sku^1.5 id^10.0 manu^1.1 cat^1.4
-         title^10.0 description^5.0 keywords^5.0 author^2.0 resourcename^1.0
-       </str>
-       <str name="mlt.fl">text,features,name,sku,id,manu,cat,title,description,keywords,author,resourcename</str>
+user_location_region^2 srch_destination_id^3       
+</str>
+       <str name="mlt.fl">user_location_city</str>
        <int name="mlt.count">3</int>
 
        <!-- Faceting defaults -->
        <str name="facet">on</str>
        <str name="facet.missing">true</str>
        <str name="facet.field">user_id</str>
-       <str name="facet.field">srch_destination_id</str>
-       <str name="facet.query">is_mobile</str>
+       <str name="facet.query">srch_children_cnt</str>
        <str name="facet.mincount">1</str>
-       <str name="facet.pivot">srch_children_cnt</str>
+       <str name="facet.pivot">user_id</str>
        <str name="facet.range.other">after</str>
        <str name="facet.range">srch_adults_cnt</str>
        <int name="f.srch_adults_cnt.facet.range.start">0</int>
@@ -1222,8 +1225,8 @@
       <str name="name">mySuggester</str>
       <str name="lookupImpl">FuzzyLookupFactory</str>      
       <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-      <str name="field">cat</str>
-      <str name="weightField">price</str>
+      <str name="field">user_id</str>
+      <str name="weightField">user_location_region</str>
       <str name="suggestAnalyzerFieldType">string</str>
       <str name="buildOnStartup">false</str>
     </lst>
@@ -1341,7 +1344,7 @@
       <!-- Configure the remaining request handler parameters. -->
       <str name="defType">edismax</str>
       <str name="qf">
-        text^0.5 features^1.0 name^1.2 sku^1.5 id^10.0 manu^1.1 cat^1.4
+        id^10.0
       </str>
       <str name="q.alt">*:*</str>
       <str name="rows">100</str>

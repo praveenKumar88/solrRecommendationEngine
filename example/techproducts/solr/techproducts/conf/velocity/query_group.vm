@@ -21,16 +21,10 @@
           No Group
         </option>
 
-        <option value="user_location_city"
+        <option value="user_id"
           #if($groupF == 'manu_exact')selected="true"#end
         >
-          City
-        </option>
-
-        <option value="hotel_country"
-          #if($groupF == 'popularity')selected="true"#end
-        >
-          Country
+          user_id
         </option>
 
       </select>
